@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zainab Ali Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .projects, .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 1rem;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Zainab Ali</h1>
+        <p>B.Tech in Electronics and Electrical Engineering, IIT Guwahati</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Zainab Ali, a final-year B.Tech student at IIT Guwahati. Passionate about technology, I have experience in full-stack development and leadership roles, driving impactful projects and initiatives.</p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="card">
+                <h3>Money-Tracker</h3>
+                <p>A MERN stack application for tracking expenses and incomes with CRUD operations and data visualization.</p>
+                <a href="https://github.com/zainabali23/MoneyTracker" target="_blank">View on GitHub</a>
+            </div>
+            <div class="card">
+                <h3>MailZ</h3>
+                <p>A mailing application featuring real-time email updates and categorization using smtpjs.</p>
+                <a href="https://github.com/zainabali23/MailZ" target="_blank">View on GitHub</a>
+            </div>
+            <div class="card">
+                <h3>CampusExpress</h3>
+                <p>A platform for alums and students to share experiences with JWT Authentication and CRUD operations.</p>
+                <a href="https://github.com/zainabali23/CampusExpress" target="_blank">View on GitHub</a>
+            </div>
+            <div class="card">
+                <h3>Path-Visualizer</h3>
+                <p>A React-based application to visualize graph algorithms like A* and Dijkstra.</p>
+                <a href="https://github.com/zainabali23/PathVisualiser" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming: JavaScript, C/C++, Python</li>
+            <li>Web Technologies: HTML, CSS, React.js, Node.js</li>
+            <li>Databases: MongoDB, MySQL</li>
+            <li>Tools: Figma, Git, MATLAB</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:zainabaliiitg@gmail.com">zainabaliiitg@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/zainab-ali-b96005244" target="_blank">linkedin.com/in/zainab-ali</a></p>
+        <p>GitHub: <a href="https://github.com/zainabali23" target="_blank">github.com/zainabali23</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Zainab Ali. All rights reserved.</p>
+    </footer>
+</body>
+</html>
